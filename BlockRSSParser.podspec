@@ -6,11 +6,9 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author       = { "Thibaut LE LEVIER" => "thibaut@lelevier.fr" 
-                     "Gianguido Sorà" => "g.sora4@gmail.com"
-                    }
+  s.author       = { "Thibaut LE LEVIER" => "thibaut@lelevier.fr", "Gianguido Sorà" => "g.sora4@gmail.com" }
 
-  s.source       = { :git => "https://github.com/gsora/BlockRSSParser.git", :tag => "2.1" }
+  s.source       = { :git => "https://github.com/gsora/BlockRSSParser.git" }
 
   s.requires_arc = true
 
