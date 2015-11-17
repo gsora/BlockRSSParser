@@ -20,8 +20,10 @@
 @property (strong,nonatomic) NSDate *pubDate;
 @property (strong,nonatomic) NSString *author;
 @property (strong,nonatomic) NSString *guid;
+@property (strong,nonatomic) NSString *thumbnailString;
 
 -(NSArray *)imagesFromItemDescription;
 -(NSArray *)imagesFromContent;
+-(NSArray *)imagesFromThumbnailString;
 
 @end

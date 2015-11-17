@@ -34,6 +34,14 @@
     return nil;
 }
 
+-(NSArray *)imagesFromThumbnailString {
+    if(self.thumbnailString) {
+        return [self imagesFromHTMLString:self.thumbnailString];
+    }
+    
+    return nil;
+}
+
 #pragma mark - retrieve images from html string using regexp (private methode)
 
 -(NSArray *)imagesFromHTMLString:(NSString *)htmlstr
