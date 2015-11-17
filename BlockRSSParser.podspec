@@ -1,14 +1,16 @@
 Pod::Spec.new do |s|
   s.name         = "BlockRSSParser"
   s.version      = "2.1"
-  s.summary      = "AFNetworkingXMLRequestOperation based RSS parser."
-  s.homepage     = "https://github.com/tibo/BlockRSSParser"
+  s.summary      = "AFNetworkingXMLRequestOperation based RSS parser - fork with YouTube RSS thumbnail parser"
+  s.homepage     = "https://github.com/gsora/BlockRSSParser"
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author       = { "Thibaut LE LEVIER" => "thibaut@lelevier.fr" }
+  s.author       = { "Thibaut LE LEVIER" => "thibaut@lelevier.fr" 
+                     "Gianguido Sorà" => "g.sora4@gmail.com"
+                    }
 
-  s.source       = { :git => "https://github.com/tibo/BlockRSSParser.git", :tag => "2.1" }
+  s.source       = { :git => "https://github.com/gsora/BlockRSSParser.git", :tag => "2.1" }
 
   s.requires_arc = true
 
