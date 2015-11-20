@@ -71,7 +71,7 @@
     } else if ([elementName isEqualToString:@"media:thumbnail"]) {
         [currentItem setThumbnailString:[attributeDict objectForKey:@"url"]];
     }
-    
+        
     tmpString = [[NSMutableString alloc] init];
     
 }
@@ -130,6 +130,11 @@
         if ([elementName isEqualToString:@"guid"]) {
             [currentItem setGuid:tmpString];
         }
+        
+        if ([elementName isEqualToString:@"yt:videoId"]) {
+          [currentItem setVideoID:tmpString];
+       }
+      
     }
     
     if ([elementName isEqualToString:@"rss"] || [elementName isEqualToString:@"feed"]) {
